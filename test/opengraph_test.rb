@@ -39,7 +39,7 @@ class MovieTest < Test::Unit::TestCase
 <meta property="og:image" content="http://ia.media-imdb.com/rock.jpg"/>
 <meta property="og:url" content="#{MOVIE_URL}"/>
 <meta property="og:description" content="#{MOVIE_DESCRIPTION}"/>
-<meta property="og:site-name" content="IMDb"/>)
+<meta property="og:site_name" content="IMDb"/>)
 
   GENERATED_LIKE_BUTTON = %(<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0117500%2F&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>)
   GENERATED_LIKE_BUTTON_CUSTOM_URL = %(<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fexample.com%2Fmovies%2F6&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>)
