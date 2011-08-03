@@ -84,6 +84,7 @@ module ActsAsOpengraphHelper
     async_fb = <<-END
       <div id="fb-root"></div>
       <script>
+
 				FBCallbacks = new Array();
 				
         window.fbAsyncInit = function() {
