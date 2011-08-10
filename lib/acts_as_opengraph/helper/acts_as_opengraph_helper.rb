@@ -86,8 +86,7 @@ module ActsAsOpengraphHelper
       <script>
 
 				FBCallbacks = new Array();
-				
-        window.fbAsyncInit = function() {
+
           FB.init({appId: '#{ appid }', status: true, cookie: true,
                    xfbml: true});
 					
@@ -99,13 +98,6 @@ module ActsAsOpengraphHelper
 					}
 					FBCallbacks = this.callbacks;
 					
-        };
-        (function() {
-          var e = document.createElement('script'); e.async = true;
-          e.src = document.location.protocol +
-            '//connect.facebook.net/#{locale}/all.js';
-          document.getElementById('fb-root').appendChild(e);
-        }());
       </script>
     END
     async_fb.html_safe
